@@ -1,0 +1,282 @@
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.clear{
+    clear:both;
+}
+
+.text-white {
+    color: #fff;
+}
+
+/* Start: Header */
+#header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 46px;
+    background-color: #000;
+    z-index: 1;
+}
+
+#header .search-button{
+    float: right;
+    padding: 0px 23px;
+}
+#header .search-button:hover{
+    background-color: #f44336;
+    cursor: pointer;
+}
+
+#header .search-icon{
+    color: #fff;
+    line-height: 46px;
+}
+
+#nav{
+    display: inline-block;
+}
+
+#nav > li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: large;
+    line-height: 46px;
+}
+
+#nav > li > a{
+    color: #fff;
+    text-decoration: none;
+    padding: 0px 24px;
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+
+}
+#nav > li:hover > a,
+#nav .subnav li:hover a{
+    background-color: #ccc;
+    color: #000;
+}
+
+#nav .subnav{
+    background-color: #fff;
+    position: absolute;
+    list-style: none;
+    line-height: 46px;                                   
+    display: none;
+}
+
+
+#backgroundHeader {
+    background: url('https://www.w3schools.com/w3images/la.jpg')  top center / cover no-repeat ;
+    margin-top: 46px;
+    padding-top: 50%;
+    position: relative;
+}
+#backgroundHeader .text-backgroundHeader{
+    color: #ccc;
+    text-align: center;
+    bottom: 0;
+    position: absolute;
+    padding-bottom: 48px;
+    width: 100%;
+}
+
+/* End: Header */
+
+/* Content */
+
+#content .text-heading{
+    font-weight: 400;
+    letter-spacing: 4px;
+    margin: 10px 0px;
+}
+
+#content .sub-heading{
+    font-style: italic;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #aaa;
+    margin: 10px 0px;
+}
+
+
+#Assignment,
+#About-Us,
+#Contact {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 0px;
+    text-align: center;
+
+}
+
+/* Assignment */
+.assignment {
+    background-color: #fff;
+    margin-top: 36px;
+    padding: 12px 0 32px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.assignment_item{
+    width: 148px;
+    height: 90px;
+    color: #fff;
+    text-align: center;
+    line-height: 90px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 20px;
+    background-color: #000;
+}
+.assignment_item:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+}
+.assignment .final{
+    flex: 2;
+}
+
+
+.about-sections{
+    background-color: #000;
+    
+}
+/*Member*/
+
+#content .member-list{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-top: 36px;
+}
+
+#content .member-item{
+   float: left;
+   width: 33.3333333%;
+   text-align: center;
+}
+
+#content .member-item img{
+    height: 153.58px;
+    width:  153.58px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+}
+
+#content .member-name,
+#content .member-id{
+    font-size: 15px;
+    color: #fff;
+}
+/*end Member*/
+
+/*form contact*/
+.form-contact {
+    margin-top: 36px;
+    padding: 32px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-contact .first-column{
+    text-align: left;
+    flex: 2;
+}
+.form-contact .first-column i {
+    padding: 8px;
+}
+
+.form-contact .second-column {
+    flex: 1;
+}
+.second-column__row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.second-column__row1 input{
+    max-width: 49%;
+    padding: 8px 0px;
+}
+
+
+.second-column__row2 input{
+    width: 100%;
+    padding: 8px 0px;
+    margin-top: 8px;;
+}
+.second-column__row3 button {
+    margin-top: 16px;
+    padding: 8px 16px;
+    float: right;
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
+.second-column__row3 button:hover{
+    background-color: #ccc;
+    color: #000;
+    cursor: pointer;
+}
+
+
+
+
+
+#footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 128px;
+    background-color: #000;
+    text-align: center;
+}
+
+#footer .social-list {
+    font-size: 24px;
+    padding: 8px 0px;
+}
+
+#footer a {
+    padding:8px;
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+}
+#footer a:hover {
+    color: rgba(255,255,255,0.6);
+}
+
+#footer .copyRight {
+    color: rgba(255,255,255,0.6);
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

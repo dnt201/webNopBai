@@ -1,0 +1,49 @@
+html, body {
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    font-family: arial,Helvetica,sans-serif;
+    font-size: 11pt;
+}
+h1{
+    color: teal;
+}
+
+label{
+    float: left;
+    width: 6em;
+    margin-bottom: 0.5em;
+}
+input[type="text"],input[type="email"]
+{
+    width: 15em;
+    margin-bottom: 0.5em;
+    margin-left: 0.5em;
+}
+br{
+    clear: both;
+}
+
+#submit{
+    margin-left: 0.5em;
+}
+
+.container {
+    margin-top: -50% ;
+    padding: 64px 32px;
+    border: 5px solid teal ; 
+    border-radius: 6px;
+}
+button {
+	padding: 12px 48px;
+}
+
+i {
+    color: red;
+    font-size: 16px;
+}

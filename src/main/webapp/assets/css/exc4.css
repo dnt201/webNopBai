@@ -1,0 +1,61 @@
+/* The styles for the elements */
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 85%;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+h1 {     
+    font-size: 140%;
+    color: teal;
+    margin-bottom: .5em;    
+}
+br {
+    clear: both;
+}
+
+
+.btn-image {
+    min-width:50px;
+    min-height:50px;
+    max-width:50px;
+    max-height: 50px;
+    background-image: url("https://cdn4.iconfinder.com/data/icons/refresh_cl/256/System/Home.png");
+    background-size: cover;
+    border: none;
+    opacity: 0.9;
+    background-color: transparent;
+    transform: translateX(-50px)
+
+}
+.btn-image:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+#quantity {
+    width: 2em;
+}
+.pad_top {
+    padding-top: 1em;
+}
+/* The styles for the tables */
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 50em;
+}
+th, td {
+    border: 1px solid black;
+    text-align: left;
+    padding: .5em;
+}
+.right {
+    text-align: right;
+}
+
+.totalMoney{
+	color: red;
+    font-size: 16px;
+}
+

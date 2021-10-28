@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+	id="WebApp_ID" version="4.0">
+	<display-name>webNopBai</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+
+	<servlet>
+		<servlet-name>assignmentServlet</servlet-name>
+		<servlet-class>assignment.assignmentServl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>assignmentServlet</servlet-name>
+		<url-pattern>/assignment</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>emailServlet</servlet-name>
+		<servlet-class>exc2.exc2Servlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>emailServlet</servlet-name>
+		<url-pattern>/emailList</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>exc1</servlet-name>
+		<servlet-class>exc1.navExc1</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>exc1</servlet-name>
+		<url-pattern>/exc1</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>exc1onlyServlet</servlet-name>
+		<servlet-class>exc1.exc1OnlyServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>exc1onlyServlet</servlet-name>
+		<url-pattern>/exc1-login-onlyServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>exc1Login</servlet-name>
+		<servlet-class>exc1.loginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>exc1Login</servlet-name>
+		<url-pattern>/exc1Login</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>cartServlet</servlet-name>
+		<servlet-class>exc4.business.CartServle</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>cartServlet</servlet-name>
+		<url-pattern>/cart</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>DownloadServlet1</servlet-name>
+		<servlet-class>exc3.download.DownloadServlet1</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DownloadServlet1</servlet-name>
+		<url-pattern>/download</url-pattern>
+	</servlet-mapping>
+	
+	<session-config>
+		<session-timeout>30</session-timeout>
+	</session-config>
+
+
+
+
+
+
+
+</web-app>

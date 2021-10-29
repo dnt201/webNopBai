@@ -25,7 +25,6 @@ br {
     border: none;
     opacity: 0.9;
     background-color: transparent;
-    transform: translateX(-50px)
 
 }
 .btn-image:hover {

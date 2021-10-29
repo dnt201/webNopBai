@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<web-app version="4.0" 
 	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
-	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
-	id="WebApp_ID" version="4.0">
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
+	http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
 	<display-name>webNopBai</display-name>
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>
@@ -62,7 +63,7 @@
 
 	<servlet>
 		<servlet-name>cartServlet</servlet-name>
-		<servlet-class>exc4.business.CartServle</servlet-class>
+		<servlet-class>exc4.controller.CartServle</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>cartServlet</servlet-name>

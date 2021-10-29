@@ -31,6 +31,9 @@
     Joe Rut - Genuine Wood Grained Finish
 </a>
 </p>
+<form action="assignment" style="margin-top:8px">
+	<button name ="action" value ="homepage">Home page</button>
+</form>
 
 </body>
 </html>

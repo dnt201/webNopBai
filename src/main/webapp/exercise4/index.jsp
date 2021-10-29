@@ -63,7 +63,7 @@
  -->
 	</table>
 	<form action="cart" method="post">
-		<button style="margin-top:16px" class="btn-image" name="action" value="homepage">Home page
+		<button style="margin-top:16px" class="btn-image" name="action" value="homepage">
 		</button>
 	</form>
 </body>
